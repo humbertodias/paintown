@@ -2,6 +2,7 @@ name: devkitpro cross compile build
 
 on:
   push
+  workflow_dispatch:
 
 jobs:
   build:
