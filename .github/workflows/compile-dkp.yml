@@ -1,8 +1,8 @@
 name: devkitpro cross compile build
 
 on:
-  push
   workflow_dispatch:
+#  push
 
 jobs:
   build:
